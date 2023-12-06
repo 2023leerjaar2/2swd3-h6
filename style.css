@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../website/img/bbq.png");
+    background-size: cover; /* Zorgt ervoor dat de achtergrondafbeelding de volledige achtergrond bedekt */
+    background-repeat: no-repeat; /* Voorkomt herhaling van de afbeelding */
+    background-position: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 229, 180, 0.7); /* Veranderd naar een lichtbruine kleur */
+    padding: 40px; /* Aangepast om de container groter te maken */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden; /* Voeg overflow toe om de afbeelding binnen de container te houden */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    color: #964b00; /* Aangepast naar een donkerdere bruine kleur */
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    color: #964b00; /* Aangepast naar een donkerdere bruine kleur */
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #964b00; /* Aangepast naar een donkerdere bruine kleur */
+    width: 250px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    background-color: #964b00; /* Aangepast naar een donkerdere bruine kleur */
+    color: white;
+    cursor: pointer;
+    width: 250px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #8b0000; /* Aangepast naar een donkerdere rode kleur */
+  }
+
+  input[value="inloggen"]{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh
+  }
+  
+  input[value="registreren"]{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  .fout{
+    color: red;
+    font-size: 5rem;
+  }
+
+  .toegevoegd{
+    color: greenyellow;
+    font-size: 5rem;
+  }
